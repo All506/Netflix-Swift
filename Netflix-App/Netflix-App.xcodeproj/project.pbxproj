@@ -19,6 +19,7 @@
 		9D232B462AAF8C8300680283 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D232B452AAF8C8300680283 /* CollectionViewTableViewCell.swift */; };
 		9D5D1E692AB2656F008E040A /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D1E682AB2656F008E040A /* APICaller.swift */; };
 		9D5D1E6B2AB26930008E040A /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D1E6A2AB26930008E040A /* Movie.swift */; };
+		9D5D1E6D2AB26C63008E040A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5D1E6C2AB26C63008E040A /* Extensions.swift */; };
 		9DEEF89A2AAFD647007E55A3 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEEF8992AAFD647007E55A3 /* HeroHeaderUIView.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		9D232B452AAF8C8300680283 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		9D5D1E682AB2656F008E040A /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		9D5D1E6A2AB26930008E040A /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9D5D1E6C2AB26C63008E040A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9DEEF8992AAFD647007E55A3 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,6 +126,7 @@
 		9D232B432AAF8C4300680283 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9D5D1E6C2AB26C63008E040A /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				9DEEF89A2AAFD647007E55A3 /* HeroHeaderUIView.swift in Sources */,
 				9D232B3F2AAF859200680283 /* DownloadsViewController.swift in Sources */,
 				9D232B242AAF826300680283 /* AppDelegate.swift in Sources */,
+				9D5D1E6D2AB26C63008E040A /* Extensions.swift in Sources */,
 				9D232B262AAF826300680283 /* SceneDelegate.swift in Sources */,
 				9D232B3B2AAF855F00680283 /* UpcomingViewController.swift in Sources */,
 				9D5D1E6B2AB26930008E040A /* Movie.swift in Sources */,
