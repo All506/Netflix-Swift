@@ -33,7 +33,9 @@ class HomeViewController: UIViewController {
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y:0, width: view.bounds.width, height: 450))
         homeFeedTable.tableHeaderView = headerView
         
+        //Call to get each section
         getTrendingMovies()
+        fetchData()
     }
     
     private func configureNavBar(){
@@ -57,6 +59,12 @@ class HomeViewController: UIViewController {
         super.viewDidLayoutSubviews()
         //Will take the whole screen
         homeFeedTable.frame = view.bounds
+    }
+    
+    private func fetchData(){
+        APICaller.shared.getTopRated{ results in
+            
+        }
     }
     
     private func getTrendingMovies(){
